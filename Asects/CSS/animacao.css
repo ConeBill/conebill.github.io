@@ -1,0 +1,97 @@
+@keyframes coracao {
+    0% {
+        margin-top: 0;
+    }
+
+    25% {
+        margin-top: 25px;
+    }
+
+    50% {
+        margin-top: 0px;
+    }
+
+    75% {
+        margin-top: 25px;
+    }
+
+    100% {
+        margin-top: 0px;
+    }
+}
+
+@keyframes rosa {
+    0% {
+        margin-top: 25px;
+    }
+
+    25% {
+        margin-top: 0px;
+    }
+
+    50% {
+        margin-top: 25px;
+    }
+
+    75% {
+        margin-top: 0px;
+    }
+
+    100% {
+        margin-top: 25px;
+    }
+}
+
+.faixaSuperior {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(255, 189, 218);
+    border-bottom: 5px solid rgb(255, 116, 174);
+}
+
+.faixaInferior {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(255, 189, 218);
+    border-top: 5px solid rgb(255, 116, 174);
+}
+
+.divCoracao {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: center;
+    animation-name: coracao;
+    animation-direction: normal;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.divRosa {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: center;
+    animation-name: rosa;
+    animation-direction: normal;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+.coracao {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+
+}
+
+.rosa {
+    margin-top: 0px;
+    width: 100%;
+    height: 100px;
+}

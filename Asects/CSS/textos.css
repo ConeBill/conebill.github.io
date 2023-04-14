@@ -1,0 +1,15 @@
+@font-face {
+    font-family: loveFont;
+    src: url(/Asects/CSS/Fonts/Caveat-VariableFont_wght.ttf);
+}
+
+.titulo {
+    height: 110px;
+    font-size: 4em;
+    font-family: loveFont;
+}
+
+.texto {
+    height: 250px;
+    width: 100%;
+}
