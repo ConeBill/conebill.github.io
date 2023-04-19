@@ -1,0 +1,49 @@
+@keyframes picole-animation {
+    from {
+        background-position: 0% 0%;
+    }
+
+    to {
+        background-position: 100% 100%;
+    }
+}
+
+.supresa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    opacity: 90%;
+}
+
+.picole {
+    position: relative;
+    display: flex;
+    width: 150px;
+    height: 230px;
+    border: 3px solid black;
+    border-top-left-radius: 75px;
+    border-top-right-radius: 75px;
+    justify-content: space-around;
+    background: repeating-linear-gradient(315deg,
+            rgba(255,252,84,1) 0%, rgba(255,252,84,1) 10%,
+            rgba(116,101,230,1) 11%, rgba(116,101,230,1) 20%,
+            rgba(239,137,239,1) 21%, rgba(239,137,239,1) 30%,
+            rgba(138,250,77,1) 31%, rgba(138,250,77,1) 40%,
+            rgba(116,251,253,1) 41%, rgba(116,251,253,1) 50%);
+    background-size: 200% 200%;
+    animation: picole-animation 5s linear infinite forwards;
+}
+
+.stick {
+    position: absolute;
+    bottom: -83px;
+    width: 40px;
+    height: 80px;
+    border: 3px solid black;
+    border-top: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(222, 152, 67);
+}
